@@ -1,6 +1,5 @@
 # todoList-1
-Minimal todo-list web app with React, unfortunately. <br>
-Structure [inspired from here](https://www.youtube.com/watch?v=pCA4qpQDZD8).
+Minimal todo-list web app with React, unfortunately. Structure [inspired from here](https://www.youtube.com/watch?v=pCA4qpQDZD8).
 <br><br>
 ![Demo of web app.](./demo1.gif)
 
