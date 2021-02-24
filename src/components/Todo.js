@@ -5,12 +5,10 @@ const Todo = ( {text,id,todo,todos,setTodos}) =>{
   // todo.id is the one currently being actioned
   const deleteHandler = () => {
     setTodos(todos.filter( (qq) => qq.id !== todo.id) ) ;
-    console.log(todo);
   };
   const completeHandler = () => {
     setTodos(todos.map( (qq) => {
       if (qq.id === todo.id){
-        console.log(qq);
         return{
           ...qq, completed: !qq.completed//true
         }

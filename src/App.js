@@ -13,20 +13,20 @@ function App(){
   const [filteredTodos, setFilteredTodos] = useState([]);
 
   const filterHandler = () => {
-    console.log("new+" + status);
     switch(status){
-      case 'completed':
-        setFilteredTodos(todos.filter(todo => todo.completed === "true"));
-        console.log("this is comp");
-        console.log(filteredTodos);
+      case "completed":
+        setFilteredTodos(todos.filter(todo => todo.completed === true));
         break;
-      case 'uncompleted':
-        setFilteredTodos(todos.filter(todo => todo.completed === "false"));
+      case "uncompleted":
+        setFilteredTodos(todos.filter(todo => todo.completed === false));
         break;
-      case 'all':
+      case "all":
         setFilteredTodos(todos);
         break;
     }
+    console.log("status is: " + status);
+    console.log(filteredTodos);
+    console.log("done status: " + status);
   }
   useEffect(()=>{
     filterHandler();
