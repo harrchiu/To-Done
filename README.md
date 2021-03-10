@@ -12,8 +12,9 @@ Playing around with formatting + feature to reorder list + fix dropdown.
 <ul>
   <li>Extend select dropdown</li>
   <li>Registration</li>
-  <li>Publish!</li>
-  <br>
+  <li><s>Publish!</s>netlify way too good (Mar. 10)</li>
+  <li>Web accessible lists via links</li>
+  <br><br>
   <li>Insert <i>this</i> todo list?</li>
 </ul>
 
