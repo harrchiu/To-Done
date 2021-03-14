@@ -1,4 +1,4 @@
-# todoList-1
+# To-Done
 A minimal todo-list web app with React, unfortunately. Structure [inspired from here](https://www.youtube.com/watch?v=pCA4qpQDZD8).<br>
 Try out the [latest version here](https://todolist-one1.netlify.app).
 <br><br>
