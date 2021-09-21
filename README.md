@@ -2,7 +2,7 @@
 A minimal todo-list web app with React, unfortunately. Structure [inspired from here](https://www.youtube.com/watch?v=pCA4qpQDZD8).<br>
 Try out the [latest version here](https://todolist-one1.netlify.app).
 <br><br>
-![Demo of web app.](./demo1.gif)
+![Demo of web app.](client/demo1.gif)
 
 ## Feb 23.
 
